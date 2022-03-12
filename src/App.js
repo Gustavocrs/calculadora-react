@@ -8,7 +8,7 @@ function App() {
   const [visor, setVisor] = useState([""]);
 
   function Calcular() {
-    setVisor(eval(visorMemoria));
+    // setVisor(eval(visorMemoria));
     setVisorMemoria("");
   }
 
