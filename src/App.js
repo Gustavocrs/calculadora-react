@@ -1,18 +1,18 @@
-import Botao from "./components/Botao";
-import Input from "./components/Input";
-import "./App.css";
-import { useState } from "react";
+import Botao from './components/Botao'
+import Input from './components/Input'
+import './App.css'
+import { useState } from 'react'
 
 function App() {
-  const [visorMemoria, setVisorMemoria] = useState([""]);
-  const [visor, setVisor] = useState([""]);
+  const [visorMemoria, setVisorMemoria] = useState([''])
+  const [visor, setVisor] = useState([''])
 
   function Calcular() {
-    // setVisor(eval(visorMemoria));
-    setVisorMemoria("");
+    setVisor(eval(visorMemoria))
+    setVisorMemoria('')
   }
 
-  function Limpar(){
+  function Limpar() {
     setVisor('')
     setVisorMemoria('')
   }
@@ -35,15 +35,6 @@ function App() {
         />
         <div className="teclado">
           <div className="numeros">
-            <Botao
-              className="btn"
-              text="%"
-              value="%"
-              onClick={(e) => setVisorMemoria(visorMemoria + e.target.value)}
-            />
-            <Botao className="btn" text="CE" onClick={Limpar} />
-            <Botao className="btn" text="C" />
-
             <Botao
               className="btn"
               text="7"
@@ -114,7 +105,6 @@ function App() {
           </div>
 
           <div className="operadores">
-            <Botao className="btn" text="<" />
             <Botao
               className="btn btnOpe"
               text="/"
@@ -141,9 +131,15 @@ function App() {
             />
           </div>
         </div>
+        <Botao
+          className="btn limpar"
+          text="Limpar"
+          value="Limpar"
+          onClick={Limpar}
+        />
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

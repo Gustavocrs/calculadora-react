@@ -3,11 +3,12 @@
     border: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
-    width: 200px;
-    height: 50px;
+    width: 206px;
+    height: 48px;
     text-align: right;
     border: 0;
     outline: 0;
+    overflow: hidden;
 }
 
 .mini{
@@ -15,9 +16,11 @@
     border: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
-    width: 200px;
-    height: 30px;
+    width: 206px;
+    height: 28px;
     text-align: right;
     border: 0;
     outline: 0;
+    overflow: hidden;
+    margin-top: 2px
 }

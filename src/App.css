@@ -12,36 +12,41 @@ h1{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: lightblue;
+  background-color: #f1f1f1;
   height: 100vh;
   width: 100vw;
 }
 .numeros {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  width: 150px;
-  height: 200px;
+  width: 156px;
   justify-content: center;
-  
+  align-items: center;
 }
 
 .operadores {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 50px;
-  height: 250px;
   justify-content: center;
+  align-items: center;
 }
 
 .teclado{
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 210px;
+  width: 210px;
 }
 
 .calc{
   display: flex;
   flex-direction: column;
-  border: 10px solid seagreen;
-  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  
 }

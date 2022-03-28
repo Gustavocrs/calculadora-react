@@ -6,14 +6,29 @@
     cursor: pointer;  
     font-weight: 300;
     font-size: 20px;
+    margin: 1px;
 }
 
 .btn:hover{
-    background-color: gray;
+    background-color: ;
     outline: 0;
     border: 0;
 }
 
 .btnOpe{
-    background-color: aquamarine;
+    width: 50px;
+    height: 50px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;  
+    font-weight: 300;
+    font-size: 20px;
+    background-color: lightsalmon;
+}
+
+.limpar{
+    width: 206px;
+    height: 40px;
+    margin-top: 0;
+    margin-bottom: 2px;
 }
